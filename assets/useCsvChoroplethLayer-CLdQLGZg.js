@@ -1,0 +1,13 @@
+import{a as e,d as t,g as n,i as r,l as i,m as a,n as o,o as s,s as c}from"./index-DokcTHlP.js";var l=n(c(),1),u=`rgba(160,160,170,0.35)`;function d(e,t=5){let n=[...e].sort((e,t)=>e-t).filter(e=>e>0);return n.length?Array.from({length:t+1},(e,r)=>n[Math.round(r/t*(n.length-1))]):[0,1,2,3,4,5]}function f(n,{onFeatureClick:c,onContextMenu:f}={}){r();let p=null,m=null;function h(){p&&=(n.removeLayer(p),null),m&&=(m.remove(),null)}async function g(r){h();let[g,v]=await Promise.all([fetch(r.boundaryUrl).then(e=>{if(!e.ok)throw Error(`Boundary HTTP ${e.status}: ${r.boundaryUrl}`);return e.json()}),i(r.csvUrl)]),y=r.boundaryIdField,b=r.csvIdField??y,x=new Map(v.map(e=>[e[b],e])),S={};for(let e of v){let t=parseFloat(e[r.valueField]);S[e[b]]=Number.isFinite(t)?t:null}let C=d(Object.values(S).filter(e=>e!=null)),w=r.weight??1;function T(e){return e==null||e<=0?u:t(a(e,C),r.baseColor,.85)}return p=l.default.geoJSON(g,{style:e=>{let t=e.properties[y];return{color:r.stroke??`#a855f7`,weight:w,opacity:.85,fillColor:T(S[t]),fillOpacity:.85}},onEachFeature:(e,t)=>{let n=e.properties[y],i=x.get(n),a=S[n],l={color:r.stroke??`#a855f7`,weight:w,opacity:.85,fillColor:T(a),fillOpacity:.85},u={color:r.stroke??`#a855f7`,weight:w+1.5,opacity:1,fillColor:T(a),fillOpacity:1},d={color:r.stroke??`#a855f7`,weight:w+1,opacity:1,fillColor:T(a),fillOpacity:1};s(t,l,u,{_datasetId:r.id,id:n,name:e.properties[r.nameField??y]??n,value:a,...i??{}}),o(t,{hoverDelta:d,onClick:(e,t)=>c?.(e,t),onCtxMenu:(e,t)=>f?.(e,t)})}}).addTo(n),m=_(r,C),m.addTo(n),e({hasTime:!1,layerGroup:p,remove:h})}function _(e,n){let r=Array.from({length:5},(e,t)=>({t:t/4,v:Math.round(n[Math.round(t/4*(n.length-1))]??0)})).filter((e,t,n)=>t===0||e.v!==n[t-1].v),i=l.default.control({position:`bottomright`});return i.onAdd=()=>{let n=l.default.DomUtil.create(`div`,`mta-legend`);return n.innerHTML=`
+        <div class="mta-lg-title" style="color:${e.color??`#a855f7`}">${e.label??`Nightlife POI`}</div>
+        <div class="mta-lg-scale">
+          ${r.map(({t:n,v:r})=>`
+            <div class="mta-lg-row">
+              <span class="mta-lg-swatch" style="background:${t(n,e.baseColor,.85)}"></span>
+              <span class="mta-lg-val">${r.toLocaleString()}</span>
+            </div>`).join(``)}
+          <div class="mta-lg-row">
+            <span class="mta-lg-swatch" style="background:${u}"></span>
+            <span class="mta-lg-val">No data</span>
+          </div>
+        </div>`,n},i}return{render:g,clear:h}}export{f as useCsvChoroplethLayer};
