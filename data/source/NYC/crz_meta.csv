@@ -1,0 +1,13 @@
+detection_group,region,type,lat,lng
+Brooklyn Bridge,Brooklyn,bridge,40.7061,-73.9969
+East 60th St,60th St,surface,40.7602,-73.9615
+FDR Drive at 60th St,FDR Drive,surface,40.7593,-73.9593
+Holland Tunnel,New Jersey,tunnel,40.7266,-74.0149
+Hugh L. Carey Tunnel,Brooklyn,tunnel,40.6941,-74.0129
+Lincoln Tunnel,New Jersey,tunnel,40.7628,-74.0104
+Manhattan Bridge,Brooklyn,bridge,40.7075,-73.9908
+Queensboro Bridge,Queens,bridge,40.7569,-73.9548
+Queens Midtown Tunnel,Queens,tunnel,40.7466,-73.9665
+West 60th St,60th St,surface,40.7708,-73.9865
+West Side Highway at 60th St,West Side Highway,surface,40.7715,-73.991
+Williamsburg Bridge,Brooklyn,bridge,40.7139,-73.9731
