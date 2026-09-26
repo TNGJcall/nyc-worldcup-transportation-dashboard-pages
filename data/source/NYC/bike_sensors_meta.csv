@@ -1,0 +1,42 @@
+sensor_id,name,lat,lng,modes
+100005020,Manhattan Bridge 2012 Test Bike Counter,40.69981,-73.98589,bike
+100009424,2nd Avenue - 26th St S,40.73971,-73.97954,bike
+100009425,Prospect Park West,40.671288458102666,-73.97138165085187,bike
+100009426,Manhattan Bridge Ped Path,40.714573,-73.99495,bike
+100009427,Williamsburg Bridge Bike Path,40.71053,-73.96145,bike
+100009428,Ed Koch Queensboro Bridge Shared Path,40.75101,-73.94045,bike
+100009429,Manhattan Bridge 2013 to 2018 Bike Counter,40.699768,-73.98582,bike
+100010017,Staten Island Ferry,40.643387,-74.072075,bike
+100010018,Pulaski Bridge,40.742563,-73.9514924,bike
+100010019,Kent Ave btw North 8th St and North 9th St,40.720959193834354,-73.9609303061573,bike
+100010020,1st Avenue - 26th St N - Interference testing,40.73883,-73.977165,bike
+100010022,Brooklyn Bridge Bike Path,40.709274,-74.00099,bike
+100039064,Forsyth Plaza,40.71562304644138,-73.99474407997337,bike
+100047029,Manhattan Bridge Display Bike Counter,40.7156,-73.99475,bike
+100051865,Manhattan Bridge 2012 to 2019 Bike Counter,40.69981,-73.98589,bike
+100057316,8th Ave at 50th St.,40.76234843823216,-73.98612032425785,bike
+100057318,Broadway at 50th St,40.76138,-73.98408,bike
+100057319,Amsterdam Ave at 86th St.,40.7877,-73.97505,bike
+100057320,Columbus Ave at 86th St.,40.7877,-73.97505,bike
+100058279,Kent Ave btw South 6th St. and Broadway,40.711282432675226,-73.96838606913825,bike
+100062893,Manhattan Bridge Bike Comprehensive,40.7156,-73.99475,bike
+300020241,Brooklyn Bridge Bicycle Path (Roadway),40.71265638494567,-74.00446415534917,bike
+300020904,Comprehensive Brooklyn Bridge Counter,40.71164427539657,-74.00410945150031,bike
+300024007,111th St at 50th Ave,40.74563,-73.8525,bike
+300027723,Fountain Ave,40.655606182737465,-73.8629511962948,bike
+300028963,Willis Ave,40.807046290967556,-73.92439305793233,"bike, pedestrian"
+300029647,Willis Ave Bikes,40.807046290967556,-73.92439305793233,bike
+300029648,Willis Ave Peds,40.807046290967556,-73.92439305793233,pedestrian
+300038506,High Bridge,40.84219,-73.93207,"bike, pedestrian"
+300038509,Emmons Ave,40.5841,-73.93099,"bike, pedestrian"
+300040736,Concrete Plant Park,40.827664,-73.8850099,"bike, pedestrian"
+300041240,Ocean Pkwy at Avenue J,40.62430316774017,-73.97060930728914,bike
+300042336,Pelham Pkwy,40.85766903667604,-73.85615408420564,bike
+300043073,Concrete Plant Park Peds,40.827664,-73.8850099,pedestrian
+300043074,Concrete Plant Park Bikes,40.827664,-73.8850099,bike
+300043075,Emmons Ave Peds,40.5841,-73.93099,pedestrian
+300043076,Emmons Ave Bikes,40.5841,-73.93099,bike
+300043077,High Bridge Peds,40.84219,-73.93207,pedestrian
+300043078,High Bridge Bikes,40.84219,-73.93207,bike
+300054793,P-102DELV - Hunts Point Ave Station,40.8207,-73.89049,bike
+400004719,Flatlands Ave & 76th St,40.6331138,-73.9158709,"bike, scooter"
