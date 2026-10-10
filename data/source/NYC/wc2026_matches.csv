@@ -1,0 +1,105 @@
+﻿match_id,name,home_team,away_team,round,venue,kickoff_date,kickoff_time,kickoff_hour,kickoff_datetime,utc_kickoff,r16plus,is_metlife,usa,home_score,away_score
+537327,Mexico vs South Africa,Mexico,South Africa,Group A,"Estadio Azteca (Estadio Banorte), Mexico City",2026-06-11,15:00,15,2026-06-11 15:00:00,2026-06-11T19:00:00Z,0,0,0,2,0
+537328,South Korea vs Czechia,South Korea,Czechia,Group A,"Estadio Akron, Zapopan (Guadalajara)",2026-06-11,22:00,22,2026-06-11 22:00:00,2026-06-12T02:00:00Z,0,0,0,2,1
+537333,Canada vs Bosnia-Herzegovina,Canada,Bosnia-Herzegovina,Group B,"BMO Field, Toronto",2026-06-12,15:00,15,2026-06-12 15:00:00,2026-06-12T19:00:00Z,0,0,0,1,1
+537345,United States vs Paraguay,United States,Paraguay,Group D,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-12,21:00,21,2026-06-12 21:00:00,2026-06-13T01:00:00Z,0,0,1,4,1
+537334,Qatar vs Switzerland,Qatar,Switzerland,Group B,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-06-13,15:00,15,2026-06-13 15:00:00,2026-06-13T19:00:00Z,0,0,0,1,1
+537339,Brazil vs Morocco,Brazil,Morocco,Group C,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-13,18:00,18,2026-06-13 18:00:00,2026-06-13T22:00:00Z,0,1,0,1,1
+537340,Haiti vs Scotland,Haiti,Scotland,Group C,"Gillette Stadium, Foxborough (Boston)",2026-06-13,21:00,21,2026-06-13 21:00:00,2026-06-14T01:00:00Z,0,0,0,0,1
+537346,Australia vs Turkey,Australia,Turkey,Group D,"BC Place, Vancouver",2026-06-14,00:00,0,2026-06-14 00:00:00,2026-06-14T04:00:00Z,0,0,0,2,0
+537351,Germany vs Curaçao,Germany,Curaçao,Group E,"NRG Stadium, Houston",2026-06-14,13:00,13,2026-06-14 13:00:00,2026-06-14T17:00:00Z,0,0,0,7,1
+537357,Netherlands vs Japan,Netherlands,Japan,Group F,"AT&T Stadium, Arlington (Dallas)",2026-06-14,16:00,16,2026-06-14 16:00:00,2026-06-14T20:00:00Z,0,0,0,2,2
+537352,Ivory Coast vs Ecuador,Ivory Coast,Ecuador,Group E,"Lincoln Financial Field, Philadelphia",2026-06-14,19:00,19,2026-06-14 19:00:00,2026-06-14T23:00:00Z,0,0,0,1,0
+537358,Sweden vs Tunisia,Sweden,Tunisia,Group F,"Estadio BBVA, Guadalupe (Monterrey)",2026-06-14,22:00,22,2026-06-14 22:00:00,2026-06-15T02:00:00Z,0,0,0,5,1
+537369,Spain vs Cape Verde Islands,Spain,Cape Verde Islands,Group H,"Mercedes-Benz Stadium, Atlanta",2026-06-15,12:00,12,2026-06-15 12:00:00,2026-06-15T16:00:00Z,0,0,0,0,0
+537363,Belgium vs Egypt,Belgium,Egypt,Group G,"Lumen Field, Seattle",2026-06-15,15:00,15,2026-06-15 15:00:00,2026-06-15T19:00:00Z,0,0,0,1,1
+537370,Saudi Arabia vs Uruguay,Saudi Arabia,Uruguay,Group H,"Hard Rock Stadium, Miami Gardens",2026-06-15,18:00,18,2026-06-15 18:00:00,2026-06-15T22:00:00Z,0,0,0,1,1
+537364,Iran vs New Zealand,Iran,New Zealand,Group G,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-15,21:00,21,2026-06-15 21:00:00,2026-06-16T01:00:00Z,0,0,0,2,2
+537391,France vs Senegal,France,Senegal,Group I,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-16,15:00,15,2026-06-16 15:00:00,2026-06-16T19:00:00Z,0,1,0,3,1
+537392,Iraq vs Norway,Iraq,Norway,Group I,"Gillette Stadium, Foxborough (Boston)",2026-06-16,18:00,18,2026-06-16 18:00:00,2026-06-16T22:00:00Z,0,0,0,1,4
+537397,Argentina vs Algeria,Argentina,Algeria,Group J,"Arrowhead Stadium (GEHA Field), Kansas City",2026-06-16,21:00,21,2026-06-16 21:00:00,2026-06-17T01:00:00Z,0,0,0,3,0
+537398,Austria vs Jordan,Austria,Jordan,Group J,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-06-17,00:00,0,2026-06-17 00:00:00,2026-06-17T04:00:00Z,0,0,0,3,1
+537403,Portugal vs Congo DR,Portugal,Congo DR,Group K,"NRG Stadium, Houston",2026-06-17,13:00,13,2026-06-17 13:00:00,2026-06-17T17:00:00Z,0,0,0,1,1
+537409,England vs Croatia,England,Croatia,Group L,"AT&T Stadium, Arlington (Dallas)",2026-06-17,16:00,16,2026-06-17 16:00:00,2026-06-17T20:00:00Z,0,0,0,4,2
+537410,Ghana vs Panama,Ghana,Panama,Group L,"BMO Field, Toronto",2026-06-17,19:00,19,2026-06-17 19:00:00,2026-06-17T23:00:00Z,0,0,0,1,0
+537404,Uzbekistan vs Colombia,Uzbekistan,Colombia,Group K,"Estadio Azteca (Estadio Banorte), Mexico City",2026-06-17,22:00,22,2026-06-17 22:00:00,2026-06-18T02:00:00Z,0,0,0,1,3
+537329,Czechia vs South Africa,Czechia,South Africa,Group A,"Mercedes-Benz Stadium, Atlanta",2026-06-18,12:00,12,2026-06-18 12:00:00,2026-06-18T16:00:00Z,0,0,0,1,1
+537335,Switzerland vs Bosnia-Herzegovina,Switzerland,Bosnia-Herzegovina,Group B,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-18,15:00,15,2026-06-18 15:00:00,2026-06-18T19:00:00Z,0,0,0,4,1
+537336,Canada vs Qatar,Canada,Qatar,Group B,"BC Place, Vancouver",2026-06-18,18:00,18,2026-06-18 18:00:00,2026-06-18T22:00:00Z,0,0,0,6,0
+537330,Mexico vs South Korea,Mexico,South Korea,Group A,"Estadio Akron, Zapopan (Guadalajara)",2026-06-18,21:00,21,2026-06-18 21:00:00,2026-06-19T01:00:00Z,0,0,0,1,0
+537348,United States vs Australia,United States,Australia,Group D,"Lumen Field, Seattle",2026-06-19,15:00,15,2026-06-19 15:00:00,2026-06-19T19:00:00Z,0,0,1,2,0
+537342,Scotland vs Morocco,Scotland,Morocco,Group C,"Gillette Stadium, Foxborough (Boston)",2026-06-19,18:00,18,2026-06-19 18:00:00,2026-06-19T22:00:00Z,0,0,0,0,1
+537341,Brazil vs Haiti,Brazil,Haiti,Group C,"Lincoln Financial Field, Philadelphia",2026-06-19,20:30,20,2026-06-19 20:30:00,2026-06-20T00:30:00Z,0,0,0,3,0
+537347,Turkey vs Paraguay,Turkey,Paraguay,Group D,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-06-19,23:00,23,2026-06-19 23:00:00,2026-06-20T03:00:00Z,0,0,0,0,1
+537359,Netherlands vs Sweden,Netherlands,Sweden,Group F,"NRG Stadium, Houston",2026-06-20,13:00,13,2026-06-20 13:00:00,2026-06-20T17:00:00Z,0,0,0,5,1
+537353,Germany vs Ivory Coast,Germany,Ivory Coast,Group E,"BMO Field, Toronto",2026-06-20,16:00,16,2026-06-20 16:00:00,2026-06-20T20:00:00Z,0,0,0,2,1
+537354,Ecuador vs Curaçao,Ecuador,Curaçao,Group E,"Arrowhead Stadium (GEHA Field), Kansas City",2026-06-20,20:00,20,2026-06-20 20:00:00,2026-06-21T00:00:00Z,0,0,0,0,0
+537360,Tunisia vs Japan,Tunisia,Japan,Group F,"Estadio BBVA, Guadalupe (Monterrey)",2026-06-21,00:00,0,2026-06-21 00:00:00,2026-06-21T04:00:00Z,0,0,0,0,4
+537371,Spain vs Saudi Arabia,Spain,Saudi Arabia,Group H,"Mercedes-Benz Stadium, Atlanta",2026-06-21,12:00,12,2026-06-21 12:00:00,2026-06-21T16:00:00Z,0,0,0,4,0
+537365,Belgium vs Iran,Belgium,Iran,Group G,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-21,15:00,15,2026-06-21 15:00:00,2026-06-21T19:00:00Z,0,0,0,0,0
+537372,Uruguay vs Cape Verde Islands,Uruguay,Cape Verde Islands,Group H,"Hard Rock Stadium, Miami Gardens",2026-06-21,18:00,18,2026-06-21 18:00:00,2026-06-21T22:00:00Z,0,0,0,2,2
+537366,New Zealand vs Egypt,New Zealand,Egypt,Group G,"BC Place, Vancouver",2026-06-21,21:00,21,2026-06-21 21:00:00,2026-06-22T01:00:00Z,0,0,0,1,3
+537399,Argentina vs Austria,Argentina,Austria,Group J,"AT&T Stadium, Arlington (Dallas)",2026-06-22,13:00,13,2026-06-22 13:00:00,2026-06-22T17:00:00Z,0,0,0,2,0
+537393,France vs Iraq,France,Iraq,Group I,"Lincoln Financial Field, Philadelphia",2026-06-22,17:00,17,2026-06-22 17:00:00,2026-06-22T21:00:00Z,0,0,0,3,0
+537394,Norway vs Senegal,Norway,Senegal,Group I,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-22,20:00,20,2026-06-22 20:00:00,2026-06-23T00:00:00Z,0,1,0,3,2
+537400,Jordan vs Algeria,Jordan,Algeria,Group J,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-06-22,23:00,23,2026-06-22 23:00:00,2026-06-23T03:00:00Z,0,0,0,1,2
+537405,Portugal vs Uzbekistan,Portugal,Uzbekistan,Group K,"NRG Stadium, Houston",2026-06-23,13:00,13,2026-06-23 13:00:00,2026-06-23T17:00:00Z,0,0,0,5,0
+537411,England vs Ghana,England,Ghana,Group L,"Gillette Stadium, Foxborough (Boston)",2026-06-23,16:00,16,2026-06-23 16:00:00,2026-06-23T20:00:00Z,0,0,0,0,0
+537412,Panama vs Croatia,Panama,Croatia,Group L,"BMO Field, Toronto",2026-06-23,19:00,19,2026-06-23 19:00:00,2026-06-23T23:00:00Z,0,0,0,0,1
+537406,Colombia vs Congo DR,Colombia,Congo DR,Group K,"Estadio Akron, Zapopan (Guadalajara)",2026-06-23,22:00,22,2026-06-23 22:00:00,2026-06-24T02:00:00Z,0,0,0,1,0
+537337,Switzerland vs Canada,Switzerland,Canada,Group B,"BC Place, Vancouver",2026-06-24,15:00,15,2026-06-24 15:00:00,2026-06-24T19:00:00Z,0,0,0,2,1
+537338,Bosnia-Herzegovina vs Qatar,Bosnia-Herzegovina,Qatar,Group B,"Lumen Field, Seattle",2026-06-24,15:00,15,2026-06-24 15:00:00,2026-06-24T19:00:00Z,0,0,0,3,1
+537344,Morocco vs Haiti,Morocco,Haiti,Group C,"Mercedes-Benz Stadium, Atlanta",2026-06-24,18:00,18,2026-06-24 18:00:00,2026-06-24T22:00:00Z,0,0,0,4,2
+537343,Scotland vs Brazil,Scotland,Brazil,Group C,"Hard Rock Stadium, Miami Gardens",2026-06-24,18:00,18,2026-06-24 18:00:00,2026-06-24T22:00:00Z,0,0,0,0,3
+537331,Czechia vs Mexico,Czechia,Mexico,Group A,"Estadio Azteca (Estadio Banorte), Mexico City",2026-06-24,21:00,21,2026-06-24 21:00:00,2026-06-25T01:00:00Z,0,0,0,0,3
+537332,South Africa vs South Korea,South Africa,South Korea,Group A,"Estadio BBVA, Guadalupe (Monterrey)",2026-06-24,21:00,21,2026-06-24 21:00:00,2026-06-25T01:00:00Z,0,0,0,1,0
+537355,Ecuador vs Germany,Ecuador,Germany,Group E,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-25,16:00,16,2026-06-25 16:00:00,2026-06-25T20:00:00Z,0,1,0,2,1
+537356,Curaçao vs Ivory Coast,Curaçao,Ivory Coast,Group E,"Lincoln Financial Field, Philadelphia",2026-06-25,16:00,16,2026-06-25 16:00:00,2026-06-25T20:00:00Z,0,0,0,0,2
+537361,Tunisia vs Netherlands,Tunisia,Netherlands,Group F,"Arrowhead Stadium (GEHA Field), Kansas City",2026-06-25,19:00,19,2026-06-25 19:00:00,2026-06-25T23:00:00Z,0,0,0,1,3
+537362,Japan vs Sweden,Japan,Sweden,Group F,"AT&T Stadium, Arlington (Dallas)",2026-06-25,19:00,19,2026-06-25 19:00:00,2026-06-25T23:00:00Z,0,0,0,1,1
+537349,Turkey vs United States,Turkey,United States,Group D,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-25,22:00,22,2026-06-25 22:00:00,2026-06-26T02:00:00Z,0,0,1,3,2
+537350,Paraguay vs Australia,Paraguay,Australia,Group D,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-06-25,22:00,22,2026-06-25 22:00:00,2026-06-26T02:00:00Z,0,0,0,0,0
+537395,Norway vs France,Norway,France,Group I,"Gillette Stadium, Foxborough (Boston)",2026-06-26,15:00,15,2026-06-26 15:00:00,2026-06-26T19:00:00Z,0,0,0,1,4
+537396,Senegal vs Iraq,Senegal,Iraq,Group I,"BMO Field, Toronto",2026-06-26,15:00,15,2026-06-26 15:00:00,2026-06-26T19:00:00Z,0,0,0,5,0
+537373,Uruguay vs Spain,Uruguay,Spain,Group H,"Estadio Akron, Zapopan (Guadalajara)",2026-06-26,20:00,20,2026-06-26 20:00:00,2026-06-27T00:00:00Z,0,0,0,0,1
+537374,Cape Verde Islands vs Saudi Arabia,Cape Verde Islands,Saudi Arabia,Group H,"NRG Stadium, Houston",2026-06-26,20:00,20,2026-06-26 20:00:00,2026-06-27T00:00:00Z,0,0,0,0,0
+537367,New Zealand vs Belgium,New Zealand,Belgium,Group G,"BC Place, Vancouver",2026-06-26,23:00,23,2026-06-26 23:00:00,2026-06-27T03:00:00Z,0,0,0,1,5
+537368,Egypt vs Iran,Egypt,Iran,Group G,"Lumen Field, Seattle",2026-06-26,23:00,23,2026-06-26 23:00:00,2026-06-27T03:00:00Z,0,0,0,1,1
+537413,Panama vs England,Panama,England,Group L,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-27,17:00,17,2026-06-27 17:00:00,2026-06-27T21:00:00Z,0,1,0,0,2
+537414,Croatia vs Ghana,Croatia,Ghana,Group L,"Lincoln Financial Field, Philadelphia",2026-06-27,17:00,17,2026-06-27 17:00:00,2026-06-27T21:00:00Z,0,0,0,2,1
+537407,Colombia vs Portugal,Colombia,Portugal,Group K,"Hard Rock Stadium, Miami Gardens",2026-06-27,19:30,19,2026-06-27 19:30:00,2026-06-27T23:30:00Z,0,0,0,0,0
+537408,Congo DR vs Uzbekistan,Congo DR,Uzbekistan,Group K,"Mercedes-Benz Stadium, Atlanta",2026-06-27,19:30,19,2026-06-27 19:30:00,2026-06-27T23:30:00Z,0,0,0,3,1
+537401,Jordan vs Argentina,Jordan,Argentina,Group J,"AT&T Stadium, Arlington (Dallas)",2026-06-27,22:00,22,2026-06-27 22:00:00,2026-06-28T02:00:00Z,0,0,0,1,3
+537402,Algeria vs Austria,Algeria,Austria,Group J,"Arrowhead Stadium (GEHA Field), Kansas City",2026-06-27,22:00,22,2026-06-27 22:00:00,2026-06-28T02:00:00Z,0,0,0,3,3
+537417,South Africa vs Canada,South Africa,Canada,Last 32,"SoFi Stadium, Inglewood (Los Angeles)",2026-06-28,15:00,15,2026-06-28 15:00:00,2026-06-28T19:00:00Z,0,0,0,0,1
+537423,Brazil vs Japan,Brazil,Japan,Last 32,"NRG Stadium, Houston",2026-06-29,13:00,13,2026-06-29 13:00:00,2026-06-29T17:00:00Z,0,0,0,2,1
+537415,Germany vs Paraguay,Germany,Paraguay,Last 32,"Gillette Stadium, Foxborough (Boston)",2026-06-29,16:30,16,2026-06-29 16:30:00,2026-06-29T20:30:00Z,0,0,0,4,5
+537418,Netherlands vs Morocco,Netherlands,Morocco,Last 32,"Estadio BBVA, Guadalupe (Monterrey)",2026-06-29,21:00,21,2026-06-29 21:00:00,2026-06-30T01:00:00Z,0,0,0,3,4
+537424,Ivory Coast vs Norway,Ivory Coast,Norway,Last 32,"AT&T Stadium, Arlington (Dallas)",2026-06-30,13:00,13,2026-06-30 13:00:00,2026-06-30T17:00:00Z,0,0,0,1,2
+537416,France vs Sweden,France,Sweden,Last 32,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-06-30,17:00,17,2026-06-30 17:00:00,2026-06-30T21:00:00Z,0,1,0,3,0
+537425,Mexico vs Ecuador,Mexico,Ecuador,Last 32,"Estadio Azteca (Estadio Banorte), Mexico City",2026-06-30,22:00,22,2026-06-30 22:00:00,2026-07-01T02:00:00Z,0,0,0,2,0
+537426,England vs Congo DR,England,Congo DR,Last 32,"Mercedes-Benz Stadium, Atlanta",2026-07-01,12:00,12,2026-07-01 12:00:00,2026-07-01T16:00:00Z,0,0,0,2,1
+537422,Belgium vs Senegal,Belgium,Senegal,Last 32,"Lumen Field, Seattle",2026-07-01,16:00,16,2026-07-01 16:00:00,2026-07-01T20:00:00Z,0,0,0,3,2
+537421,United States vs Bosnia-Herzegovina,United States,Bosnia-Herzegovina,Last 32,"Levi's Stadium, Santa Clara (SF Bay Area)",2026-07-01,20:00,20,2026-07-01 20:00:00,2026-07-02T00:00:00Z,0,0,1,2,0
+537420,Spain vs Austria,Spain,Austria,Last 32,"SoFi Stadium, Inglewood (Los Angeles)",2026-07-02,15:00,15,2026-07-02 15:00:00,2026-07-02T19:00:00Z,0,0,0,3,0
+537419,Portugal vs Croatia,Portugal,Croatia,Last 32,"BMO Field, Toronto",2026-07-02,19:00,19,2026-07-02 19:00:00,2026-07-02T23:00:00Z,0,0,0,2,1
+537429,Switzerland vs Algeria,Switzerland,Algeria,Last 32,"BC Place, Vancouver",2026-07-02,23:00,23,2026-07-02 23:00:00,2026-07-03T03:00:00Z,0,0,0,2,0
+537428,Australia vs Egypt,Australia,Egypt,Last 32,"AT&T Stadium, Arlington (Dallas)",2026-07-03,14:00,14,2026-07-03 14:00:00,2026-07-03T18:00:00Z,0,0,0,3,5
+537427,Argentina vs Cape Verde Islands,Argentina,Cape Verde Islands,Last 32,"Hard Rock Stadium, Miami Gardens",2026-07-03,18:00,18,2026-07-03 18:00:00,2026-07-03T22:00:00Z,0,0,0,3,2
+537430,Colombia vs Ghana,Colombia,Ghana,Last 32,"Arrowhead Stadium (GEHA Field), Kansas City",2026-07-03,21:30,21,2026-07-03 21:30:00,2026-07-04T01:30:00Z,0,0,0,1,0
+537376,Canada vs Morocco,Canada,Morocco,Last 16,"NRG Stadium, Houston",2026-07-04,13:00,13,2026-07-04 13:00:00,2026-07-04T17:00:00Z,1,0,0,0,3
+537375,Paraguay vs France,Paraguay,France,Last 16,"Lincoln Financial Field, Philadelphia",2026-07-04,17:00,17,2026-07-04 17:00:00,2026-07-04T21:00:00Z,1,0,0,0,1
+537377,Brazil vs Norway,Brazil,Norway,Last 16,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-07-05,16:00,16,2026-07-05 16:00:00,2026-07-05T20:00:00Z,1,1,0,1,2
+537378,Mexico vs England,Mexico,England,Last 16,"Estadio Azteca (Estadio Banorte), Mexico City",2026-07-05,21:00,21,2026-07-05 21:00:00,2026-07-06T01:00:00Z,1,0,0,2,3
+537379,Portugal vs Spain,Portugal,Spain,Last 16,"AT&T Stadium, Arlington (Dallas)",2026-07-06,15:00,15,2026-07-06 15:00:00,2026-07-06T19:00:00Z,1,0,0,0,1
+537380,United States vs Belgium,United States,Belgium,Last 16,"Lumen Field, Seattle",2026-07-06,20:00,20,2026-07-06 20:00:00,2026-07-07T00:00:00Z,1,0,1,1,4
+537381,Argentina vs Egypt,Argentina,Egypt,Last 16,"Mercedes-Benz Stadium, Atlanta",2026-07-07,12:00,12,2026-07-07 12:00:00,2026-07-07T16:00:00Z,1,0,0,3,2
+537382,Switzerland vs Colombia,Switzerland,Colombia,Last 16,"BC Place, Vancouver",2026-07-07,16:00,16,2026-07-07 16:00:00,2026-07-07T20:00:00Z,1,0,0,4,3
+537383,France vs Morocco,France,Morocco,Quarter Finals,"Gillette Stadium, Foxborough (Boston)",2026-07-09,16:00,16,2026-07-09 16:00:00,2026-07-09T20:00:00Z,1,0,0,2,0
+537384,Spain vs Belgium,Spain,Belgium,Quarter Finals,"SoFi Stadium, Inglewood (Los Angeles)",2026-07-10,15:00,15,2026-07-10 15:00:00,2026-07-10T19:00:00Z,1,0,0,2,1
+537385,Norway vs England,Norway,England,Quarter Finals,"Hard Rock Stadium, Miami Gardens",2026-07-11,17:00,17,2026-07-11 17:00:00,2026-07-11T21:00:00Z,1,0,0,1,2
+537386,Argentina vs Switzerland,Argentina,Switzerland,Quarter Finals,"Arrowhead Stadium (GEHA Field), Kansas City",2026-07-11,21:00,21,2026-07-11 21:00:00,2026-07-12T01:00:00Z,1,0,0,3,1
+537387,France vs Spain,France,Spain,Semi Finals,"AT&T Stadium, Arlington (Dallas)",2026-07-14,15:00,15,2026-07-14 15:00:00,2026-07-14T19:00:00Z,1,0,0,0,2
+537388,England vs Argentina,England,Argentina,Semi Finals,"Mercedes-Benz Stadium, Atlanta",2026-07-15,15:00,15,2026-07-15 15:00:00,2026-07-15T19:00:00Z,1,0,0,1,2
+537389,France vs England,France,England,Third Place,"Hard Rock Stadium, Miami Gardens",2026-07-18,17:00,17,2026-07-18 17:00:00,2026-07-18T21:00:00Z,1,0,0,4,6
+537390,Spain vs Argentina,Spain,Argentina,Final,"MetLife Stadium, East Rutherford (New York/New Jersey)",2026-07-19,15:00,15,2026-07-19 15:00:00,2026-07-19T19:00:00Z,1,1,0,1,0
