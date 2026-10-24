@@ -1,0 +1,7 @@
+layer,break_index,value
+taxi_zone,0,1.0
+taxi_zone,1,2.0
+taxi_zone,2,5.0
+taxi_zone,3,12.0
+taxi_zone,4,58.0
+taxi_zone,5,1791.0
