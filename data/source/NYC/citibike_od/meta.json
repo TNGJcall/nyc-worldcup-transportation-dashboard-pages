@@ -1,0 +1,137 @@
+{
+ "updated_at": "2026-10-11T05:54:51.148556+00:00",
+ "rules": {
+  "slot": "started_at floored to the hour",
+  "month": "month of started_at (neighbouring monthly files are read)",
+  "level": "station; end_station_id empty = no end station recorded",
+  "files": "{yyyymm}-citibike-tripdata*.csv and JC-{yyyymm}-citibike-tripdata*.csv (as process_citibike.py); stations outside NYC are dropped downstream by the taxi-zone mapping",
+  "reconciles_with": "sum over end_station_id = departures in citibike_stations_hourly.csv"
+ },
+ "months": {
+  "2025-05": {
+   "trips": 4417439,
+   "with_end_station": 4404587,
+   "files": [
+    "202505-citibike-tripdata_1.csv",
+    "202505-citibike-tripdata_2.csv",
+    "202505-citibike-tripdata_3.csv",
+    "202505-citibike-tripdata_4.csv",
+    "202505-citibike-tripdata_5.csv",
+    "JC-202505-citibike-tripdata.csv",
+    "202506-citibike-tripdata_1.csv",
+    "202506-citibike-tripdata_2.csv",
+    "202506-citibike-tripdata_3.csv",
+    "JC-202506-citibike-tripdata.csv"
+   ]
+  },
+  "2025-06": {
+   "trips": 4854372,
+   "with_end_station": 4837287,
+   "files": [
+    "202506-citibike-tripdata_1.csv",
+    "202506-citibike-tripdata_2.csv",
+    "202506-citibike-tripdata_3.csv",
+    "202506-citibike-tripdata_4.csv",
+    "202506-citibike-tripdata_5.csv",
+    "JC-202506-citibike-tripdata.csv",
+    "202507-citibike-tripdata_1.csv",
+    "202507-citibike-tripdata_2.csv",
+    "202507-citibike-tripdata_3.csv",
+    "JC-202507-citibike-tripdata.csv"
+   ]
+  },
+  "2025-07": {
+   "trips": 5092282,
+   "with_end_station": 5072106,
+   "files": [
+    "202507-citibike-tripdata_1.csv",
+    "202507-citibike-tripdata_2.csv",
+    "202507-citibike-tripdata_3.csv",
+    "202507-citibike-tripdata_4.csv",
+    "202507-citibike-tripdata_5.csv",
+    "JC-202507-citibike-tripdata.csv",
+    "202508-citibike-tripdata_1.csv",
+    "202508-citibike-tripdata_2.csv",
+    "202508-citibike-tripdata_3.csv",
+    "JC-202508-citibike-tripdata.csv"
+   ]
+  },
+  "2025-08": {
+   "trips": 5228517,
+   "with_end_station": 5215410,
+   "files": [
+    "202508-citibike-tripdata_1.csv",
+    "202508-citibike-tripdata_2.csv",
+    "202508-citibike-tripdata_3.csv",
+    "202508-citibike-tripdata_4.csv",
+    "202508-citibike-tripdata_5.csv",
+    "202508-citibike-tripdata_6.csv",
+    "JC-202508-citibike-tripdata.csv",
+    "202509-citibike-tripdata_1.csv",
+    "202509-citibike-tripdata_2.csv",
+    "202509-citibike-tripdata_3.csv",
+    "JC-202509-citibike-tripdata.csv"
+   ]
+  },
+  "2026-05": {
+   "trips": 4787900,
+   "with_end_station": 4776323,
+   "files": [
+    "202605-citibike-tripdata_1.csv",
+    "202605-citibike-tripdata_2.csv",
+    "202605-citibike-tripdata_3.csv",
+    "202605-citibike-tripdata_4.csv",
+    "202605-citibike-tripdata_5.csv",
+    "JC-202605-citibike-tripdata.csv",
+    "202606-citibike-tripdata_1.csv",
+    "202606-citibike-tripdata_2.csv",
+    "202606-citibike-tripdata_3.csv",
+    "JC-202606-citibike-tripdata.csv"
+   ]
+  },
+  "2026-06": {
+   "trips": 5491445,
+   "with_end_station": 5477336,
+   "files": [
+    "202606-citibike-tripdata_1.csv",
+    "202606-citibike-tripdata_2.csv",
+    "202606-citibike-tripdata_3.csv",
+    "202606-citibike-tripdata_4.csv",
+    "202606-citibike-tripdata_5.csv",
+    "202606-citibike-tripdata_6.csv",
+    "JC-202606-citibike-tripdata.csv",
+    "202607-citibike-tripdata_1.csv",
+    "202607-citibike-tripdata_2.csv",
+    "202607-citibike-tripdata_3.csv",
+    "JC-202607-citibike-tripdata.csv"
+   ]
+  },
+  "2026-07": {
+   "trips": 5099776,
+   "with_end_station": 5084751,
+   "files": [
+    "202607-citibike-tripdata_1.csv",
+    "202607-citibike-tripdata_2.csv",
+    "202607-citibike-tripdata_3.csv",
+    "202607-citibike-tripdata_4.csv",
+    "202607-citibike-tripdata_5.csv",
+    "JC-202607-citibike-tripdata.csv",
+    "202608-citibike-tripdata_1.csv",
+    "202608-citibike-tripdata_2.csv",
+    "202608-citibike-tripdata_3.csv"
+   ]
+  },
+  "2026-08": {
+   "trips": 5241916,
+   "with_end_station": 5227678,
+   "files": [
+    "202608-citibike-tripdata_1.csv",
+    "202608-citibike-tripdata_2.csv",
+    "202608-citibike-tripdata_3.csv",
+    "202608-citibike-tripdata_4.csv",
+    "202608-citibike-tripdata_5.csv",
+    "202608-citibike-tripdata_6.csv"
+   ]
+  }
+ }
+}

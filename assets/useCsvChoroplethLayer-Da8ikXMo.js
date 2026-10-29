@@ -1,0 +1,13 @@
+import{N as e,a as t,i as n,m as r,n as i,o as a,p as o,s}from"./useBaseLayer-B8DHFgwk.js";import{d as c,h as l,l as u}from"./index-pHi2cbAh.js";var d=e(s(),1),f=r.noData;function p(e,t=5){let n=[...e].sort((e,t)=>e-t).filter(e=>e>0);return n.length?Array.from({length:t+1},(e,r)=>n[Math.round(r/t*(n.length-1))]):[0,1,2,3,4,5]}function m(e,{onFeatureClick:r,onContextMenu:s}={}){n();let m=null,h=null;function g(){m&&=(e.removeLayer(m),null),h&&=(h.remove(),null)}async function _(n){g();let[_,y]=await Promise.all([fetch(n.boundaryUrl).then(e=>{if(!e.ok)throw Error(`Boundary HTTP ${e.status}: ${n.boundaryUrl}`);return e.json()}),u(n.csvUrl)]),b=n.boundaryIdField,x=n.csvIdField??b,S=new Map(y.map(e=>[String(e[x]),e])),C={};for(let e of y){let t=parseFloat(e[n.valueField]);C[e[x]]=Number.isFinite(t)?t:null}let w=p(Object.values(C).filter(e=>e!=null)),T=n.weight??1;function E(e){return e==null||e<=0?f:c(l(e,w),n.baseColor,.85)}return m=d.default.geoJSON(_,{style:e=>{let t=e.properties[b];return{color:n.stroke??o.nightlife,weight:T,opacity:.85,fillColor:E(C[t]),fillOpacity:.85}},onEachFeature:(e,t)=>{let c=e.properties[b],l=S.get(String(c)),u=C[c],d={color:n.stroke??o.nightlife,weight:T,opacity:.85,fillColor:E(u),fillOpacity:.85},f={color:n.stroke??o.nightlife,weight:T+1.5,opacity:1,fillColor:E(u),fillOpacity:1},p={color:n.stroke??o.nightlife,weight:T+1,opacity:1,fillColor:E(u),fillOpacity:1};a(t,d,f,{_datasetId:n.id,id:c,name:e.properties[n.nameField??b]??c,value:u,...l??{}}),i(t,{hoverDelta:p,onClick:(e,t)=>r?.(e,t),onCtxMenu:(e,t)=>s?.(e,t)})}}).addTo(e),h=v(n,w),h.addTo(e),t({hasTime:!1,layerGroup:m,remove:g})}function v(e,t){let n=Array.from({length:5},(e,n)=>({t:n/4,v:Math.round(t[Math.round(n/4*(t.length-1))]??0)})).filter((e,t,n)=>t===0||e.v!==n[t-1].v),r=d.default.control({position:`bottomright`});return r.onAdd=()=>{let t=d.default.DomUtil.create(`div`,`mta-legend`);return t.innerHTML=`
+        <div class="mta-lg-title" style="color:${e.color??o.nightlife}">${e.label??`Nightlife POI`}</div>
+        <div class="mta-lg-scale">
+          ${n.map(({t,v:n})=>`
+            <div class="mta-lg-row">
+              <span class="mta-lg-swatch" style="background:${c(t,e.baseColor,.85)}"></span>
+              <span class="mta-lg-val">${n.toLocaleString()}</span>
+            </div>`).join(``)}
+          <div class="mta-lg-row">
+            <span class="mta-lg-swatch" style="background:${f}"></span>
+            <span class="mta-lg-val">No data</span>
+          </div>
+        </div>`,t},r}return{render:_,clear:g}}export{m as useCsvChoroplethLayer};
