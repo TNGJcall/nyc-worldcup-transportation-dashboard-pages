@@ -1,0 +1,62 @@
+[00:15:20] === Zone Function Atlas layers ===
+[00:15:20] PLUTO lots: D:\NYC\nyc-worldcup-dashboard\public\data\source\NYC\pluto\26v1\cache\pluto26v1_lots.parquet (856,614 lots)
+[00:15:21] citywide floor area 5.7201 bn sqft, hotel 71.7 M sqft
+[00:15:21] SLA on-premises premises: 11,461 {'restaurant': 7765, 'nightlife': 3053, 'hotel': 320, 'catering': 239, 'venue': 84}
+[00:15:24] DOHMH establishments: 30,917 (791 without coordinates)
+[00:15:24] ── census_tract
+[00:15:25]   census_tract: 2325 units from boundaries_census_tracts.json
+[00:15:25]   reading lot polygons from mappluto.shp.zip (this takes a few minutes) ...
+[00:15:54]     areal weights: 854,630 single-unit lots, 1,939 split lots, 45 outside every unit
+[00:15:55]     weights cached to D:\NYC\nyc-worldcup-dashboard\public\data\source\NYC\pluto\26v1\cache\pluto26v1_lot_weights_census_tract.parquet
+[00:15:56]     floor area allocated 5.7201 bn sqft; low_floor_flag 74 of 2325 units
+[00:15:56]     venues: SLA 11,362, DOHMH 30,115; dominant {'res': 2039, 'mixed': 102, 'little floor area': 70, 'office': 40, 'public_other': 39, 'industrial': 30, 'no buildings': 4, 'hotel': 1}
+[00:15:56] ✅  zone_function/census_tract.json  2325 units
+[00:15:56] ── taxi_zone
+[00:15:57]   taxi_zone: 263 units from taxi_zones.json
+[00:15:57]     weights: pluto26v1_lot_zone_weights.parquet (reference taxi-zone weights)
+[00:15:58]     floor area allocated 5.7201 bn sqft; low_floor_flag 17 of 263 units
+[00:15:58]     venues: SLA 11,362, DOHMH 30,116; dominant {'res': 208, 'little floor area': 15, 'mixed': 15, 'office': 12, 'public_other': 10, 'no buildings': 2, 'industrial': 1}
+[00:15:58] ✅  zone_function/taxi_zone.json  263 units
+[00:15:58] reference check, taxi zones vs D:\NYC\nyc-worldcup-dashboard\analysis_od\output\build_zone_poi\zone_function.csv
+[00:15:58]   OK   res_share                    max |diff| 9.194e-17  units off by >1%: 0
+[00:15:58]   OK   office_share                 max |diff| 9.91e-17  units off by >1%: 0
+[00:15:58]   OK   retail_share                 max |diff| 9.714e-17  units off by >1%: 0
+[00:15:58]   OK   hotel_share                  max |diff| 9.845e-17  units off by >1%: 0
+[00:15:58]   OK   industrial_share             max |diff| 1.11e-16  units off by >1%: 0
+[00:15:58]   OK   other_share                  max |diff| 1.11e-16  units off by >1%: 0
+[00:15:58]   OK   unknown_share                max |diff| 9.888e-17  units off by >1%: 0
+[00:15:58]   OK   landuse_entropy              max |diff| 8.511e-17  units off by >1%: 0
+[00:15:58]   OK   bldg_msqft_per_km2           max |diff| 1.421e-14  units off by >1%: 0
+[00:15:58]   OK   hotel_msqft_per_km2          max |diff| 6.661e-16  units off by >1%: 0
+[00:15:58]   OK   low_floor_flag               max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_onprem_n                 max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_nightlife_n              max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_restaurant_n             max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_hotel_n                  max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_venue_n                  max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   sla_nightlife_share          max |diff| 8.327e-17  units off by >1%: 0
+[00:15:58]   OK   sla_onprem_per_km2           max |diff| 5.684e-14  units off by >1%: 0
+[00:15:58]   OK   sla_nightlife_per_km2        max |diff| 3.553e-15  units off by >1%: 0
+[00:15:58]   OK   dohmh_food_n                 max |diff| 0  units off by >1%: 0
+[00:15:58]   OK   dohmh_food_per_km2           max |diff| 2.842e-14  units off by >1%: 0
+[00:15:58]   OK   plaza_n                      max |diff| 4.441e-16  units off by >1%: 0
+[00:15:58]   OK   dominant                     mismatches: 0 []
+[00:15:58] ── nta
+[00:15:59]   nta: 262 units from boundaries_ntas.json
+[00:16:00]     weights: summed from census tract weights via tract nta2020
+[00:16:00]     floor area allocated 5.7201 bn sqft; low_floor_flag 50 of 262 units
+[00:16:01]     venues: SLA 11,362, DOHMH 30,115; dominant {'res': 187, 'little floor area': 46, 'mixed': 10, 'public_other': 9, 'no buildings': 4, 'office': 4, 'industrial': 2}
+[00:16:01] ✅  zone_function/nta.json  262 units
+[00:16:01] ── cdta
+[00:16:01]   cdta: 71 units from boundaries_cdtas.json
+[00:16:02]     weights: summed from census tract weights via tract cdta2020
+[00:16:03]     floor area allocated 5.7201 bn sqft; low_floor_flag 8 of 71 units
+[00:16:03]     venues: SLA 11,362, DOHMH 30,115; dominant {'res': 56, 'little floor area': 8, 'public_other': 4, 'office': 2, 'mixed': 1}
+[00:16:03] ✅  zone_function/cdta.json  71 units
+[00:16:03] ── borough
+[00:16:04]   borough: 5 units from borough_boundaries.json
+[00:16:04]     weights: borough code from BBL (exact)
+[00:16:05]     floor area allocated 5.7201 bn sqft; low_floor_flag 0 of 5 units
+[00:16:05]     venues: SLA 11,362, DOHMH 30,115; dominant {'res': 5}
+[00:16:05] ✅  zone_function/borough.json  5 units
+[00:16:05] ✅  zone_function/sites.json  7 sites
