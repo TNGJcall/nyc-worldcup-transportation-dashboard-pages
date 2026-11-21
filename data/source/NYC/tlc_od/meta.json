@@ -1,0 +1,332 @@
+{
+ "updated_at": "2026-10-11T05:50:24.354703+00:00",
+ "rules": {
+  "slot": "pickup time floored to the hour",
+  "pickup_in_file_month": true,
+  "valid_zone": [
+   1,
+   263
+  ],
+  "od_rows": "pickup zone valid; do_zone as recorded in 1..265 (264 Unknown, 265 Outside of NYC), 0 = missing/invalid",
+  "reconciles_with": "sum of trips per source = valid_pu = tlc_*_zone_hourly pickups",
+  "fhvhv_split": {
+   "HV0003": "uber",
+   "HV0005": "lyft"
+  },
+  "counts": "rows / in_month / valid_pu (= tlc_*_zone_hourly pickups) / valid_pu_do (dropoff in 1..263) / do_264 / do_265 / do_other_invalid"
+ },
+ "months": {
+  "2025-05": {
+   "yellow": {
+    "rows": 4591845,
+    "in_month": 4591821,
+    "valid_pu": 4582134,
+    "valid_pu_do": 4557050,
+    "do_264": 6325,
+    "do_265": 18759,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 55399,
+    "in_month": 55389,
+    "valid_pu": 55224,
+    "valid_pu_do": 54525,
+    "do_264": 480,
+    "do_265": 219,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 15038869,
+    "in_month": 15038869,
+    "valid_pu": 15038256,
+    "valid_pu_do": 14322469,
+    "do_264": 0,
+    "do_265": 715787,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 6052324,
+    "in_month": 6052324,
+    "valid_pu": 6052075,
+    "valid_pu_do": 5794557,
+    "do_264": 0,
+    "do_265": 257518,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2025-06": {
+   "yellow": {
+    "rows": 4322960,
+    "in_month": 4322940,
+    "valid_pu": 4314345,
+    "valid_pu_do": 4289925,
+    "do_264": 6098,
+    "do_265": 18322,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 49390,
+    "in_month": 49374,
+    "valid_pu": 49215,
+    "valid_pu_do": 48537,
+    "do_264": 455,
+    "do_265": 223,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 14167361,
+    "in_month": 14167361,
+    "valid_pu": 14166709,
+    "valid_pu_do": 13469621,
+    "do_264": 562,
+    "do_265": 696526,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5700648,
+    "in_month": 5700648,
+    "valid_pu": 5700387,
+    "valid_pu_do": 5467443,
+    "do_264": 0,
+    "do_265": 232944,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2025-07": {
+   "yellow": {
+    "rows": 3898963,
+    "in_month": 3898956,
+    "valid_pu": 3890590,
+    "valid_pu_do": 3867042,
+    "do_264": 4227,
+    "do_265": 19321,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 48205,
+    "in_month": 48192,
+    "valid_pu": 48032,
+    "valid_pu_do": 47448,
+    "do_264": 388,
+    "do_265": 196,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 14141782,
+    "in_month": 14141782,
+    "valid_pu": 14141126,
+    "valid_pu_do": 13460630,
+    "do_264": 533,
+    "do_265": 679963,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5511230,
+    "in_month": 5511230,
+    "valid_pu": 5510953,
+    "valid_pu_do": 5263855,
+    "do_264": 0,
+    "do_265": 247098,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2025-08": {
+   "yellow": {
+    "rows": 3574091,
+    "in_month": 3574074,
+    "valid_pu": 3566467,
+    "valid_pu_do": 3541985,
+    "do_264": 3937,
+    "do_265": 20545,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 46306,
+    "in_month": 46283,
+    "valid_pu": 46089,
+    "valid_pu_do": 45339,
+    "do_264": 444,
+    "do_265": 306,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 13558357,
+    "in_month": 13558357,
+    "valid_pu": 13557751,
+    "valid_pu_do": 12902596,
+    "do_264": 737,
+    "do_265": 654418,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5713104,
+    "in_month": 5713104,
+    "valid_pu": 5712832,
+    "valid_pu_do": 5447005,
+    "do_264": 0,
+    "do_265": 265827,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2026-05": {
+   "yellow": {
+    "rows": 4090836,
+    "in_month": 4090822,
+    "valid_pu": 4084337,
+    "valid_pu_do": 4065563,
+    "do_264": 2836,
+    "do_265": 15938,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 44921,
+    "in_month": 44911,
+    "valid_pu": 44747,
+    "valid_pu_do": 44069,
+    "do_264": 468,
+    "do_265": 210,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 15354816,
+    "in_month": 15354816,
+    "valid_pu": 15354002,
+    "valid_pu_do": 14656556,
+    "do_264": 456,
+    "do_265": 696990,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 6770928,
+    "in_month": 6770928,
+    "valid_pu": 6770560,
+    "valid_pu_do": 6449425,
+    "do_264": 0,
+    "do_265": 321135,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2026-06": {
+   "yellow": {
+    "rows": 3837248,
+    "in_month": 3837231,
+    "valid_pu": 3830662,
+    "valid_pu_do": 3810265,
+    "do_264": 2658,
+    "do_265": 17739,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 44163,
+    "in_month": 44150,
+    "valid_pu": 43999,
+    "valid_pu_do": 43361,
+    "do_264": 445,
+    "do_265": 193,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 15257740,
+    "in_month": 15257740,
+    "valid_pu": 15256807,
+    "valid_pu_do": 14533418,
+    "do_264": 506,
+    "do_265": 722883,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5518128,
+    "in_month": 5518128,
+    "valid_pu": 5517820,
+    "valid_pu_do": 5253822,
+    "do_264": 0,
+    "do_265": 263998,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2026-07": {
+   "yellow": {
+    "rows": 3530109,
+    "in_month": 3530063,
+    "valid_pu": 3523863,
+    "valid_pu_do": 3502204,
+    "do_264": 2150,
+    "do_265": 19509,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 41252,
+    "in_month": 41236,
+    "valid_pu": 41083,
+    "valid_pu_do": 40448,
+    "do_264": 429,
+    "do_265": 206,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 15215374,
+    "in_month": 15215374,
+    "valid_pu": 15214502,
+    "valid_pu_do": 14521548,
+    "do_264": 630,
+    "do_265": 692324,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5705875,
+    "in_month": 5705875,
+    "valid_pu": 5705502,
+    "valid_pu_do": 5420501,
+    "do_264": 0,
+    "do_265": 285001,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  },
+  "2026-08": {
+   "yellow": {
+    "rows": 3336716,
+    "in_month": 3336701,
+    "valid_pu": 3329513,
+    "valid_pu_do": 3309928,
+    "do_264": 1789,
+    "do_265": 17796,
+    "do_other_invalid": 0
+   },
+   "green": {
+    "rows": 40687,
+    "in_month": 40673,
+    "valid_pu": 40544,
+    "valid_pu_do": 39941,
+    "do_264": 412,
+    "do_265": 191,
+    "do_other_invalid": 0
+   },
+   "uber": {
+    "rows": 14800058,
+    "in_month": 14800058,
+    "valid_pu": 14799280,
+    "valid_pu_do": 14110583,
+    "do_264": 475,
+    "do_265": 688222,
+    "do_other_invalid": 0
+   },
+   "lyft": {
+    "rows": 5693422,
+    "in_month": 5693422,
+    "valid_pu": 5693076,
+    "valid_pu_do": 5415597,
+    "do_264": 0,
+    "do_265": 277479,
+    "do_other_invalid": 0
+   },
+   "fhvhv_other_license_in_month": 0
+  }
+ }
+}
