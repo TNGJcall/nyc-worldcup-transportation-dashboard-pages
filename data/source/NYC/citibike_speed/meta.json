@@ -1,0 +1,179 @@
+{
+ "updated_at": "2026-10-28T10:01:08.092296+00:00",
+ "rules": {
+  "slot": "started_at floored to the hour; end hour = slot + dlag",
+  "month": "month of started_at (neighbouring monthly files are read)",
+  "kept": "start and end station present and different; coordinates present and in lat (40.45, 40.95), lng (-74.3, -73.65); 60..3600 s; >= 0.2 km; <= 40.0 km/h",
+  "distance": "straight line (haversine) between start and end coordinates of the trip record, km",
+  "rideable": "classic (classic_bike, docked_bike) / electric (electric_bike) / other",
+  "rider": "member / casual (member_casual) / other (missing)",
+  "counts": "in_month / drop_station / drop_coords / drop_time / drop_distance / drop_speed / kept (sequential)"
+ },
+ "months": {
+  "2025-05": {
+   "files": [
+    "202505-citibike-tripdata_1.csv",
+    "202505-citibike-tripdata_2.csv",
+    "202505-citibike-tripdata_3.csv",
+    "202505-citibike-tripdata_4.csv",
+    "202505-citibike-tripdata_5.csv",
+    "JC-202505-citibike-tripdata.csv",
+    "202506-citibike-tripdata_1.csv",
+    "202506-citibike-tripdata_2.csv",
+    "202506-citibike-tripdata_3.csv",
+    "JC-202506-citibike-tripdata.csv"
+   ],
+   "in_month": 4419129,
+   "drop_station": 110162,
+   "drop_coords": 0,
+   "drop_time": 35528,
+   "drop_distance": 27099,
+   "drop_speed": 1,
+   "kept": 4246339
+  },
+  "2025-06": {
+   "files": [
+    "202506-citibike-tripdata_1.csv",
+    "202506-citibike-tripdata_2.csv",
+    "202506-citibike-tripdata_3.csv",
+    "202506-citibike-tripdata_4.csv",
+    "202506-citibike-tripdata_5.csv",
+    "JC-202506-citibike-tripdata.csv",
+    "202507-citibike-tripdata_1.csv",
+    "202507-citibike-tripdata_2.csv",
+    "202507-citibike-tripdata_3.csv",
+    "JC-202507-citibike-tripdata.csv"
+   ],
+   "in_month": 4856367,
+   "drop_station": 128420,
+   "drop_coords": 0,
+   "drop_time": 37734,
+   "drop_distance": 28607,
+   "drop_speed": 1,
+   "kept": 4661605
+  },
+  "2025-07": {
+   "files": [
+    "202507-citibike-tripdata_1.csv",
+    "202507-citibike-tripdata_2.csv",
+    "202507-citibike-tripdata_3.csv",
+    "202507-citibike-tripdata_4.csv",
+    "202507-citibike-tripdata_5.csv",
+    "JC-202507-citibike-tripdata.csv",
+    "202508-citibike-tripdata_1.csv",
+    "202508-citibike-tripdata_2.csv",
+    "202508-citibike-tripdata_3.csv",
+    "JC-202508-citibike-tripdata.csv"
+   ],
+   "in_month": 5095276,
+   "drop_station": 142552,
+   "drop_coords": 0,
+   "drop_time": 44841,
+   "drop_distance": 30111,
+   "drop_speed": 1,
+   "kept": 4877771
+  },
+  "2025-08": {
+   "files": [
+    "202508-citibike-tripdata_1.csv",
+    "202508-citibike-tripdata_2.csv",
+    "202508-citibike-tripdata_3.csv",
+    "202508-citibike-tripdata_4.csv",
+    "202508-citibike-tripdata_5.csv",
+    "202508-citibike-tripdata_6.csv",
+    "JC-202508-citibike-tripdata.csv",
+    "202509-citibike-tripdata_1.csv",
+    "202509-citibike-tripdata_2.csv",
+    "202509-citibike-tripdata_3.csv",
+    "JC-202509-citibike-tripdata.csv"
+   ],
+   "in_month": 5230630,
+   "drop_station": 144995,
+   "drop_coords": 0,
+   "drop_time": 56683,
+   "drop_distance": 30059,
+   "drop_speed": 1,
+   "kept": 4998892
+  },
+  "2026-05": {
+   "files": [
+    "202605-citibike-tripdata_1.csv",
+    "202605-citibike-tripdata_2.csv",
+    "202605-citibike-tripdata_3.csv",
+    "202605-citibike-tripdata_4.csv",
+    "202605-citibike-tripdata_5.csv",
+    "JC-202605-citibike-tripdata.csv",
+    "202606-citibike-tripdata_1.csv",
+    "202606-citibike-tripdata_2.csv",
+    "202606-citibike-tripdata_3.csv",
+    "JC-202606-citibike-tripdata.csv"
+   ],
+   "in_month": 4790342,
+   "drop_station": 118438,
+   "drop_coords": 0,
+   "drop_time": 36042,
+   "drop_distance": 24787,
+   "drop_speed": 0,
+   "kept": 4611075
+  },
+  "2026-06": {
+   "files": [
+    "202606-citibike-tripdata_1.csv",
+    "202606-citibike-tripdata_2.csv",
+    "202606-citibike-tripdata_3.csv",
+    "202606-citibike-tripdata_4.csv",
+    "202606-citibike-tripdata_5.csv",
+    "202606-citibike-tripdata_6.csv",
+    "JC-202606-citibike-tripdata.csv",
+    "202607-citibike-tripdata_1.csv",
+    "202607-citibike-tripdata_2.csv",
+    "202607-citibike-tripdata_3.csv",
+    "JC-202607-citibike-tripdata.csv"
+   ],
+   "in_month": 5494600,
+   "drop_station": 142316,
+   "drop_coords": 0,
+   "drop_time": 46035,
+   "drop_distance": 29117,
+   "drop_speed": 1,
+   "kept": 5277131
+  },
+  "2026-07": {
+   "files": [
+    "202607-citibike-tripdata_1.csv",
+    "202607-citibike-tripdata_2.csv",
+    "202607-citibike-tripdata_3.csv",
+    "202607-citibike-tripdata_4.csv",
+    "202607-citibike-tripdata_5.csv",
+    "JC-202607-citibike-tripdata.csv",
+    "202608-citibike-tripdata_1.csv",
+    "202608-citibike-tripdata_2.csv",
+    "202608-citibike-tripdata_3.csv"
+   ],
+   "in_month": 5102807,
+   "drop_station": 138387,
+   "drop_coords": 0,
+   "drop_time": 41932,
+   "drop_distance": 25667,
+   "drop_speed": 1,
+   "kept": 4896820
+  },
+  "2026-08": {
+   "files": [
+    "202608-citibike-tripdata_1.csv",
+    "202608-citibike-tripdata_2.csv",
+    "202608-citibike-tripdata_3.csv",
+    "202608-citibike-tripdata_4.csv",
+    "202608-citibike-tripdata_5.csv",
+    "202608-citibike-tripdata_6.csv"
+   ],
+   "in_month": 5244782,
+   "drop_station": 142810,
+   "drop_coords": 0,
+   "drop_time": 50959,
+   "drop_distance": 25788,
+   "drop_speed": 2,
+   "kept": 5025223
+  }
+ }
+}
